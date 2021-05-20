@@ -1,0 +1,96 @@
+baseURL: https://kkakey.netlify.app
+title: Hello! I'm Kristen
+languageCode: en-us
+theme: hugo-theme-hello-friend-ng
+PygmentsCodeFences: yes
+PygmentsStyle: monokai
+paginate: 10
+rssLimit: 10
+copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
+  4.0 International License.
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: no
+buildFuture: no
+buildExpired: no
+canonifyURLs: yes
+enableRobotsTXT: yes
+enableGitInfo: no
+enableEmoji: yes
+enableMissingTranslationPlaceholders: no
+disableRSS: no
+disableSitemap: no
+disable404: no
+disableHugoGeneratorInject: no
+permalinks:
+  posts: /posts/:year/:month/:title/
+author:
+  name: Kristen Akey
+blackfriday:
+  hrefTargetBlank: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+params:
+  customCSS: []
+  customJS: []
+  dateform: Jan 2, 2006
+  dateformNum: '2006-01-02'
+  dateformNumTime: 2006-01-02 15:04
+  dateformShort: Jan 2
+  description: Nice theme for homepages and blogs
+  disableReadOtherPosts: no
+  enableSharingButtons: yes
+  enableThemeToggle: no
+  favicon:
+    color:
+      mask: '#301551'
+      msapplication: '#301551'
+      theme: '#301551'
+  footer:
+    author: yes
+    bottomText:
+      - Powered by <a href="http://gohugo.io">Hugo</a>
+      - Theme by <a href="https://github.com/rhazdon">Djordje Atlialp</a>
+    copyright: yes
+    rss: no
+    topText: []
+    trademark: yes
+  homeSubtitle: Welcome to my corner of internet
+  images: ''
+  justifyContent: no
+  keywords: ''
+  logo:
+    logoHomeLink: /
+    logoMark: '>'
+    logoText: $ cd /home/
+  social:
+    - name: email
+      url: mailto:kka2120@columbia.edu
+    - name: github
+      url: https://github.com/kkakey
+    - name: linkedin
+      url: https://www.linkedin.com/in/kristen-akey-432640160/
+languages:
+  en:
+    copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    subtitle: Hello Friend NG Theme
+    weight: 1
+  fr:
+    copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    subtitle: Hello Friend NG Theme
+    weight: 2
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: about/
+    - identifier: posts
+      name: Posts
+      url: posts/
