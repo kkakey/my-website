@@ -79,12 +79,10 @@ languages:
   en:
     copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
       rel="noopener">CC BY-NC 4.0</a>
-    subtitle: Hello Friend NG Theme
     weight: 1
   fr:
     copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
       rel="noopener">CC BY-NC 4.0</a>
-    subtitle: Hello Friend NG Theme
     weight: 2
 menu:
   main:
