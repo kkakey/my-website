@@ -53,7 +53,7 @@ if (themeToggle) {
 
 // my code
 if ( document.location.pathname == '/' ) {
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) {
     console.log('hi :)')
     document.querySelectorAll('.container')
           .forEach(element => element.classList.add('fade-out'))
