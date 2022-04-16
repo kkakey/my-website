@@ -1,4 +1,4 @@
-baseURL: https://kkakey.github.io/
+baseURL: https://kkakey.netlify.app
 title: Hello! I'm Kristen
 languageCode: en-us
 theme: hugo-theme-hello-friend-ng
@@ -42,7 +42,7 @@ params:
   dateformNum: '2006-01-02'
   dateformNumTime: 2006-01-02 15:04
   dateformShort: Jan 2
-  description: Nice theme for homepages and blogs
+  description: Kristen's corner of the internet
   disableReadOtherPosts: no
   enableSharingButtons: yes
   enableThemeToggle: no
@@ -79,18 +79,16 @@ languages:
   en:
     copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
       rel="noopener">CC BY-NC 4.0</a>
-    subtitle: Hello Friend NG Theme
     weight: 1
   fr:
     copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
       rel="noopener">CC BY-NC 4.0</a>
-    subtitle: Hello Friend NG Theme
     weight: 2
 menu:
   main:
     - identifier: about
       name: About Me
       url: about/
-    - identifier: posts
-      name: Posts
-      url: posts/
+    - identifier: projects
+      name: Projects
+      url: projects/

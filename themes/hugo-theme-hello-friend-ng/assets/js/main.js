@@ -51,6 +51,7 @@ if (themeToggle) {
   localStorage.removeItem("theme");
 }
 
+// my code
 if ( document.location.pathname == '/' ) {
 document.addEventListener("DOMContentLoaded", function(event) { 
     console.log('hi :)')
@@ -67,4 +68,3 @@ else {
       document.querySelectorAll('.content')
           .forEach(element => element.classList.add('fix-marg'))
 }
-
