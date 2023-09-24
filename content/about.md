@@ -15,6 +15,6 @@ I am a Data Scientist based in NYC, and I am passionate about using data and dat
 
 I graduated with a master’s degree from Columbia University in Quantitative Methods in the Social Sciences and received my BA from Barnard College in Political Science.
 
-Check out my latest projects and work on my [GitHub](https://github.com/kkakey).
+Check out my latest personal projects and work on my [GitHub](https://github.com/kkakey).
 
 And always feel free to [reach out](kka2120@columbia.edu)!
