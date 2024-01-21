@@ -89,6 +89,3 @@ menu:
     - identifier: about
       name: About Me
       url: about/
-    - identifier: projects
-      name: Projects
-      url: projects/
